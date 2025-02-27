@@ -57,8 +57,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         <div>
           <hr className="mx-auto border-[3px] border-[#90003F] w-[960px]" />
           <p className="text-[48px] font-greatVibes my-[30px]">Comment</p>
-          {(comments).map((comment: {commenter: string , comment: string}) => (
-            <div className="w-[1170px] mx-auto rounded-[8px] border-[5px] border-[#90003F] mb-[30px] p-[20px]">
+          {(comments).map((comment: {commenter: Key , comment: Key}) => (
+            <div key={comment.commenter} className="w-[1170px] mx-auto rounded-[8px] border-[5px] border-[#90003F] mb-[30px] p-[20px]">
               <p className="text-left text-[20px] mb-[10px]">{comment.commenter}さんからのコメント</p>
               <p className="text-left text-[20px]">{comment.comment}</p>
             </div>

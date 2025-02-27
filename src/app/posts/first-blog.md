@@ -8,24 +8,12 @@ tag:
   - splatoon3
   - spattary
 comments:
-  - name: たなか
+  - commenter: たなか
     comment: こめんとだお
-  - name: ヤマダ
+  - commenter: ヤマダ
     comment: でんきやだよ
   - commenter: さとう
     comment: しお
-  - commenter: さとう
-    comment: さとう
-  - commenter: さとう
-    comment: しお
-  - commenter: さとう
-    comment: satou
-  - commenter: さとう
-    comment: みりん
-  - commenter: さとう
-    comment: かまきり
-  - commenter: さいとう
-    comment: ぽい
 ---
 
 # スパッタリーを持ちたいんじゃっっ！！

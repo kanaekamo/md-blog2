@@ -21,7 +21,7 @@ export default function AddCommentForm({ pagePath }:props) {
   }
 
   //コメント追加ボタンが押された時の動作
-  const handleClick = async (event: React.MouseEvent<HTMLButtonElement>) => {
+  const handleClick = async () => {
     try{
       const formData = {
         commenter,

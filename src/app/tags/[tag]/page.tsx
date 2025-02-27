@@ -28,7 +28,7 @@ export default async function TagsList({ params }: { params: Promise<{ tag: stri
   
   //その他タグの表示
   const others = (await posts).flatMap((post) => {
-    const tagdata: String = post.frontmatter.tag
+    const tagdata: string = post.frontmatter.tag
     const tagLists = [...tagdata]    //タグのリストを作成
     return(
       tagLists.filter((tagList) => !tagList.includes(`${tag}`))    //選択中のtagを除く
