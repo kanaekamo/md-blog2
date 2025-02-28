@@ -68,7 +68,7 @@ export default async function TagsList({ params }: { params: Promise<{ tag: stri
         <div className="flex justify-center my-[40px] flex-wrap w-[960px] mx-auto">
           {(otherLists).map((otherList) => (
             <Link key={otherList} href={`/tags/${otherList}`}>
-              <div className="bg-[#444444] mx-[20px] rounded-[8px]">
+              <div className="bg-[#444444] mx-[20px] rounded-[8px] mb-[10px]">
                 <p className="text-[24px] text-center mx-7">{otherList}</p>
               </div>
             </Link>
